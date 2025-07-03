@@ -1,129 +1,21 @@
-/* App.css */
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-}
-
-#card {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-#head {
-  text-align: center;
-  border-bottom: 2px solid #0077b5;
-  padding-bottom: 20px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-#head h1 {
-  color: #0077b5;
-  font-size: 2.5em;
-  grid-column: 1 / -1;
-}
-
-#head h2 {
-  color: #333;
-  margin: 5px 0;
-  grid-column: 2 /- 1;
-  
-}
-#head h3 {
-  color: #0077b5;
-  margin: 5px 0;
-  text-align: right;
-  grid-column: 1 / -1;
-  
-}
-
-#profile {
-  margin-top: 20px;
-}
-
-#profile h1 {
-  color: #0077b5
-}
-
-#Work-Experience, #skills, #education {
-  margin-top: 20px;
-}
-
-h1 {
-  font-size: 24px;
-  color: #0077b5;
-  border-bottom: 1px solid #cccccc;
-  padding-bottom: 5px;
-}
-
-h2 {
-  font-size: 20px;
-  color: #555;
-  margin-top: 10px;
-}
-
-ul {
-  list-style-type: square;
-  padding-left: 20px;
-}
-
-li {
-  margin: 5px 0;
-}
-
-h5 {
-  font-weight: normal;
-  color: #666;
-}
-
-a {
-  color: #0077b5;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-img {
-  width: 30px;
-  height: 30px;
-}
-
-@media (max-width: 600px) {
-  #card {
-    padding: 15px;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  li {
-    font-size: 14px;
-  }
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
 .sky {
     position: relative;
-    background-color: black;
-    width: 100%;
-    height: 100%;
+    background: #000;
+    min-height: 100vh; /* 确保内容足够高以允许滚动 */
+    overflow-y: auto; /* 允许竖向滚动 */
 }
-
+body {
+    margin: 0;
+    overflow: auto; /* 确保可以滚动 */
+}
 .star {
     position: absolute;
-    background-color: white;
+    background: white;
     border-radius: 50%;
     animation: twinkle 1.5s infinite alternate;
 }
@@ -132,3 +24,67 @@ img {
     0% { opacity: 0.5; }
     100% { opacity: 1; }
 }
+
+#card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+
+h1{
+    font-size: 2em;
+    color: #dd0c28; /* 标题颜色 */
+    margin:1em 0
+}
+
+h2, h3 {
+    color: #333; /* 副标题颜色 */
+    margin: 0.5em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0077b5; /* LinkedIn 颜色 */
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle; /* 确保图标垂直居中 */
+}
+
+#head {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#head h1 {
+    margin: 0;
+    font-size: 2.5em; /* 调整标题大小 */
+    color: #333; /* 标题颜色 */
+
+}
+#contact {
+  display: flex;
+  margin: 0;
+  font-size: 0.8em; /* 调整字体大小 */
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#phone{
+  margin-right: 20px; /* 添加右边距 */
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+

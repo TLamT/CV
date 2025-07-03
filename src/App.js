@@ -26,12 +26,18 @@ function App() {
                 <Star key={index} {...star} />
             ))}
     <div id="card">
-      <div id="head">
-        <div></div><h1>Tsang Tak Lam</h1>
-        <h2>Phone: 6575 2654</h2> 
-        <h2>Email: <a href="mailto:tsangtaklam@yahoo.com.hk">tsangtaklam@yahoo.com.hk</a></h2>
-        <h3><a href="https://www.linkedin.com/in/tlamt/"><img src="https://img.icons8.com/ios/50/000000/linkedin.png"/></a></h3>
+      <div id="contact">
+        <a href="https://www.linkedin.com/in/tlamt/"><img src="https://img.icons8.com/ios/50/000000/linkedin.png"/></a>
+        <a href="mailto:tsangtaklam@yahoo.com.hk"><img src="https://img.icons8.com/ios/50/000000/gmail.png"/></a>
         </div>
+      <div id="head">
+            
+          <h1>Tsang Tak Lam</h1>
+          
+        <div id='phone'>Phone: 6575 2654</div> 
+        
+        </div>
+      
         <div id="profile">
           <h1>Profile</h1>
           <p>Experienced in software development with a focus on web applications. Proficient in
