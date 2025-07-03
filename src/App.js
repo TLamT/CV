@@ -27,8 +27,8 @@ function App() {
             ))}
     <div id="card">
       <div id="contact">
-        <a href="https://www.linkedin.com/in/tlamt/"><img src="https://img.icons8.com/ios/50/000000/linkedin.png"/></a>
-        <a href="mailto:tsangtaklam@yahoo.com.hk"><img src="https://img.icons8.com/ios/50/000000/gmail.png"/></a>
+        <a href="https://www.linkedin.com/in/tlamt/" target='_blank'><img src="https://img.icons8.com/ios/50/000000/linkedin.png"/></a>
+        <a href="mailto:tsangtaklam@yahoo.com.hk" target='_blank'><img src="https://img.icons8.com/ios/50/000000/gmail.png"/></a>
         </div>
       <div id="head">
             
