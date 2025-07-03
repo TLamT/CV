@@ -1,4 +1,4 @@
-https://cv-ytlb-tsangtaklams-projects.vercel.app/
+My online resume:https://cv-ytlb.vercel.app/
 
 This is my resume. You can visit this website to view my online resume, which includes comprehensive information about my education, work experience, and skills.
 
