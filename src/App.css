@@ -87,4 +87,20 @@ a {
   justify-content: right;
   align-items: right;
 }
-
+.btn {
+    background-color: #0077b5; /* LinkedIn 颜色 */
+    color: white;
+    border: none;
+    position: fixed;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    opacity: 0.5;
+}
+.btn:hover {
+    opacity: 1;
+}
+li {
+    margin: 0.15em 0;
+}
